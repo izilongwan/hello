@@ -1,0 +1,7 @@
+alias hi='fortune 25% fortunes 50% chinese 25% diet | lolcat'
+alias hi:en='fortune fortunes | lolcat'
+alias hi:zh='fortune 50% chinese 50% diet | lolcat'
+alias hi:ts='fortune 50% tang300 50% song100 | lolcat'
+alias cows='ls /Users/izilong/cows | sed 's/\.cow//''
+alias hi:animal='fortune 25% fortunes 50% chinese 25% diet | cowsay -f $(cows | gshuf -n 1) | lolcat'
+alias animal='hi | cowsay -f $(cows | gshuf -n 1) | lolcat'
